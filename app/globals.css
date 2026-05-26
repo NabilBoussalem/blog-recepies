@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --color-background: #fefdf8;
+  --color-foreground: #1a1a1a;
+}
+
+body {
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*:focus-visible {
+  outline: 2px solid #34d399;
+  outline-offset: 2px;
+}
+
+.recipe-content h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.recipe-content p {
+  line-height: 1.75;
+}
